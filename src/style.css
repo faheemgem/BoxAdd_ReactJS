@@ -1,0 +1,118 @@
+body {font-family: Arial;}
+
+/* Style the tab */
+.main{
+  width: 100%;
+}
+/*tab list styling */
+.react-tabs__tab-list { 
+    border-bottom: 2px solid #aaa; 
+    align-content: center;
+    margin: 0 30px 10px; 
+    padding: 0px; 
+} 
+
+ .react-tabs__tab { 
+   text-align: center;
+   display: inline-block;
+   background: #aaa;
+   border: 2px solid #000000; 
+   border-radius: 5px 5px 0 0; 
+   border-bottom: none;
+   margin-top: 10px; 
+   bottom: -1px; 
+   position: relative; 
+   list-style: none; 
+   padding: 25px 15px;
+   cursor: pointer; 
+   width: 26rem;
+   }
+
+ /*selected tab styling */
+ .react-tabs__tab--selected { 
+   background: #fff; 
+   border-color: #aaa; 
+   color: #000000; 
+   border-radius: 5px 5px 0 0; 
+   } 
+ 
+/*tab panel styling */
+ .react-tabs__tab-panel { 
+     display: none; 
+   } 
+/*selected tab panel styling */
+ .react-tabs__tab-panel--selected { 
+   display: block; 
+   } 
+
+/*buttons styling */
+#btnAdd, #btnDelete, #btnRed, #btnBlue{
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  border: 2px solid #000000;
+  margin-top: 20px;
+  margin-left: 25%;
+
+}
+
+/*hover color effect*/
+#btnRed:hover{
+  border-color: #ff0000;
+}
+
+h3 { 
+  text-align: center;
+  margin-top: 40px;
+}
+
+h3:hover { 
+  color: #0000ff;
+
+}
+
+.info{
+  margin-top: 40px;
+}
+
+#btnBlue:hover{
+  border-color: #0000ff;
+}
+
+#btnAdd:hover, #btnDelete:hover{
+  background: #ccc;
+}
+
+/*Box styling */
+.box {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border: 5px solid #000000;
+  margin-top: 20px;
+  margin-left: 50px;
+  border-radius: 15px;
+
+}
+
+#boxColor{
+  margin-top: 150px;
+
+}
+
+/*Footer styling */
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  height: 30px;
+  width: 100%;
+  background-color: #808080;
+  color: #ffffff;
+  text-align: center;
+}
